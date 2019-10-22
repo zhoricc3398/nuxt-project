@@ -3,7 +3,7 @@
     <section class="intro">
       <h1>Get the latest tech news!</h1>
     </section>
-    <PostList :posts="loadedPost" />
+    <PostList :posts="loadedPosts" />
   </div>
 </template>
 
@@ -17,7 +17,7 @@ export default {
   asyncData(context, callback) {
     setTimeout(() => {
       callback(null, {
-        loadedPost: [
+        loadedPosts: [
           {
             id: '1',
             title: 'First Post',
@@ -35,13 +35,7 @@ export default {
         ]
       })
     }, 1500)
-  },
-  // data() {
-  //   return {
-  //     loadedPost: []
-  //   }
-  // },
-  created() {}
+  }
 }
 </script>
 
