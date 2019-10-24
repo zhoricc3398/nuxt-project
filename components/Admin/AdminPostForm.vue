@@ -9,7 +9,7 @@
       >Content</AppControlInput
     >
     <AppControlInput control-type="textarea" v-model="editedPost.previewText"
-    >Preview Text</AppControlInput
+      >Preview Text</AppControlInput
     >
     <AppButton type="submit">Save</AppButton>
     <AppButton
@@ -23,14 +23,7 @@
 </template>
 
 <script>
-import AppButton from '@/components/UI/AppButton'
-import AppControlInput from '@/components/UI/AppControlInput'
-
 export default {
-  components: {
-    AppControlInput,
-    AppButton
-  },
   props: {
     post: {
       type: Object,
