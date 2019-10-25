@@ -70,3 +70,10 @@ export default {
   //   middleware: 'log'
   // }
 }
+
+module.exports = {
+  mode: 'spa',
+  router: {
+    base: '/nuxt-project'
+  }
+}
