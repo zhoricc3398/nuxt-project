@@ -66,14 +66,7 @@ export default {
     name: 'fade',
     mode: 'out-in'
   },
-  // router: {
-  //   middleware: 'log'
-  // }
-}
-
-module.exports = {
-  mode: 'spa',
   router: {
-    base: ''
+    base: '/nuxt-project/'
   }
 }
