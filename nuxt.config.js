@@ -74,6 +74,6 @@ export default {
 module.exports = {
   mode: 'spa',
   router: {
-    base: '/nuxt-project'
+    base: ''
   }
 }
